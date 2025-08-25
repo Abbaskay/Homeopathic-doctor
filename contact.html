@@ -1,0 +1,293 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Dr. Ayesha Sharma Homeopathic Center</title>
+    <meta name="description" content="Get in touch with Dr. Ayesha Sharma for homeopathic consultations. Contact information, location, and clinic hours.">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-header">
+        <div class="header-container">
+            <div class="logo">
+                <i class="fas fa-leaf"></i>
+                <h1>Dr. Ayesha Sharma</h1>
+                <span>Homeopathic Healing Center</span>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="treatments.html">Treatments</a></li>
+                    <li><a href="success.html">Success Stories</a></li>
+                    <li><a href="appointment.html">Appointment</a></li>
+                    <li><a href="contact.html" class="active">Contact</a></li>
+                </ul>
+            </nav>
+            <div class="header-contact">
+                <a href="tel:+919876543210" class="phone-btn">
+                    <i class="fas fa-phone"></i>
+                    +91 98765 43210
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <section class="page-hero">
+        <div class="container">
+            <h1>Contact Us</h1>
+            <p>Get in Touch for Natural Healing Solutions</p>
+        </div>
+    </section>
+
+    <section class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2>Get in Touch</h2>
+                    <p>We're here to help you on your journey to natural wellness. Feel free to reach out to us through any of the following channels.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Phone Consultation</h4>
+                                <p><a href="tel:+919876543210">+91 98765 43210</a></p>
+                                <span>Available during clinic hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email Us</h4>
+                                <p><a href="mailto:contact@naturalhealing.com">contact@naturalhealing.com</a></p>
+                                <span>We'll respond within 24 hours</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Visit Our Clinic</h4>
+                                <p>Green Valley Road, Delhi, India</p>
+                                <span>Near Metro Station, Easy Parking</span>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-method">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Clinic Hours</h4>
+                                <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                                <span>Saturday: 9:00 AM - 5:00 PM</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="emergency-contact">
+                        <h3><i class="fas fa-exclamation-triangle"></i> Emergency Contact</h3>
+                        <p>For urgent health concerns outside clinic hours, please contact:</p>
+                        <p><strong>Emergency: +91 98765 43211</strong></p>
+                        <p class="note">* This number is for genuine emergencies only</p>
+                    </div>
+                </div>
+
+                <div class="contact-form-container">
+                    <h2>Send Us a Message</h2>
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactName">Full Name *</label>
+                                <input type="text" id="contactName" name="contactName" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="contactEmail">Email Address *</label>
+                                <input type="email" id="contactEmail" name="contactEmail" required>
+                            </div>
+                        </div>
+                        
+                        <div class="form-row">
+                            <div class="form-group">
+                                <label for="contactPhone">Phone Number</label>
+                                <input type="tel" id="contactPhone" name="contactPhone">
+                            </div>
+                            <div class="form-group">
+                                <label for="subject">Subject *</label>
+                                <select id="subject" name="subject" required>
+                                    <option value="">Select Subject</option>
+                                    <option value="general">General Inquiry</option>
+                                    <option value="appointment">Appointment Question</option>
+                                    <option value="treatment">Treatment Information</option>
+                                    <option value="feedback">Feedback</option>
+                                    <option value="other">Other</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Message *</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Please describe your inquiry or question in detail..." required></textarea>
+                        </div>
+
+                        <div class="form-group checkbox-group">
+                            <label class="checkbox-label">
+                                <input type="checkbox" name="agreePrivacy" required>
+                                <span class="checkmark"></span>
+                                I agree to the <a href="#" class="privacy-link">privacy policy</a> and consent to being contacted regarding my inquiry.
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Send Message
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="location-section">
+        <div class="container">
+            <h2>Find Our Clinic</h2>
+            <div class="location-content">
+                <div class="location-details">
+                    <h3><i class="fas fa-map-marker-alt"></i> Clinic Location</h3>
+                    <div class="address">
+                        <p><strong>Dr. Ayesha Sharma Homeopathic Healing Center</strong></p>
+                        <p>Green Valley Road, Delhi, India</p>
+                        <p>Near Metro Station, Easy Parking Available</p>
+                    </div>
+                    
+                    <div class="transportation">
+                        <h4>How to Reach Us</h4>
+                        <div class="transport-option">
+                            <i class="fas fa-train"></i>
+                            <span><strong>Metro:</strong> Green Valley Metro Station (Line 2)</span>
+                        </div>
+                        <div class="transport-option">
+                            <i class="fas fa-bus"></i>
+                            <span><strong>Bus:</strong> Routes 101, 205, 310</span>
+                        </div>
+                        <div class="transport-option">
+                            <i class="fas fa-car"></i>
+                            <span><strong>Car:</strong> Ample parking space available</span>
+                        </div>
+                    </div>
+                    
+                    <div class="landmarks">
+                        <h4>Nearby Landmarks</h4>
+                        <ul>
+                            <li>Green Valley Shopping Mall (200m)</li>
+                            <li>Central Park (500m)</li>
+                            <li>City Hospital (1km)</li>
+                            <li>Main Bus Terminal (800m)</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="map-placeholder">
+                    <div class="map-content">
+                        <i class="fas fa-map"></i>
+                        <h4>Interactive Map</h4>
+                        <p>Click to view detailed directions</p>
+                        <button class="btn btn-outline">Open in Maps</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="faq-section">
+        <div class="container">
+            <h2>Frequently Asked Questions</h2>
+            <div class="faq-grid">
+                <div class="faq-item">
+                    <h3>What should I bring to my first consultation?</h3>
+                    <p>Please bring any previous medical reports, current medications list, and a detailed description of your symptoms and health history.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>How long does a typical consultation take?</h3>
+                    <p>Initial consultations usually take 60 minutes, while follow-up sessions are typically 30-45 minutes.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>Do you offer online consultations?</h3>
+                    <p>Yes, we offer telemedicine consultations for follow-up appointments and certain conditions that don't require physical examination.</p>
+                </div>
+                <div class="faq-item">
+                    <h3>What are your consultation fees?</h3>
+                    <p>Initial consultation is ₹1,500, and follow-up consultations are ₹800. We also offer package deals for long-term treatments.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-content">
+                <h2>Ready to Start Your Healing Journey?</h2>
+                <p>Book your consultation today and experience the power of natural homeopathic healing</p>
+                <div class="cta-buttons">
+                    <a href="appointment.html" class="btn btn-primary">Book Appointment</a>
+                    <a href="tel:+919876543210" class="btn btn-outline">Call Now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Dr. Ayesha Sharma</h3>
+                    <p>Your trusted partner in natural healing and wellness through homeopathy.</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                    </div>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="treatments.html">Treatments</a></li>
+                        <li><a href="success.html">Success Stories</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact Info</h4>
+                    <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+                    <p><i class="fas fa-envelope"></i> contact@naturalhealing.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Green Valley Road, Delhi, India</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Clinic Hours</h4>
+                    <p>Monday - Friday: 9:00 AM - 7:00 PM</p>
+                    <p>Saturday: 9:00 AM - 5:00 PM</p>
+                    <p>Sunday: Closed</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Dr. Ayesha Sharma Homeopathic Healing Center. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
